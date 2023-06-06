@@ -1,0 +1,241 @@
+body{
+  display: block;
+  background-color:rgba(80, 41, 6, 0.592);
+  /* font-family: 'Instrument Sans', sans-serif; */
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+  display: flex;
+  /* position: relative; */
+  color: black;
+  justify-content: center;
+  background-image: url(image1-cropped.jpg);
+  height:350px; 
+  padding-top: 150px;
+  background-size: cover;
+}
+
+.about{
+  display: flex;
+  color: gold;
+  justify-content: center;
+  background-image: url(image2-cropped-bw.jpg);
+  height:350px; 
+  padding-top: 150px;
+  background-size: cover;
+}
+
+.container h1{
+  font-size:80px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.about h1{
+  font-size:80px;
+  font-family: 'Fredoka', sans-serif;
+  text-align:center;
+}
+
+.content{
+  display:block;
+  padding: 40px;
+}
+
+.bristol{
+  display:flex;
+}
+
+.bristol-content{
+  padding: 10px;
+}
+
+.bristol-content h3{
+  /* color:white; */
+  color:gold;
+}
+
+.bristol table td{
+  padding:10px;
+}
+
+.bristol-map{
+  border:2px solid black;
+}
+
+.boxed{
+  background-color:white;
+  padding: 5px;
+  border-radius:13px;
+  /* border: 2px solid gold; */
+}
+
+.york{
+  display:flex;
+  padding:40px;
+}
+
+.york-content{
+  text-align:right;
+  padding:10px;
+}
+
+.york-content h3{
+  /* color:white; */
+  color:gold;
+  text-align:right;
+}
+
+.york-content table{
+  margin-right:0px;
+  margin-left:auto;
+}
+
+.york-map{
+  border: 2px solid black;
+  /* padding:10px; */
+}
+
+.york table td{
+  padding:10px;
+}
+
+.intro p{
+  text-align: center;
+  color:white;
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+}
+
+#book-button{
+  color:gold;
+  padding-right:20px;
+  padding-left:20px;
+  background-color:black;
+  border:2px solid gold;
+}
+
+#book-button:hover{
+  background-color:gold;
+  color:white;
+}
+
+#menu-button{
+  color:gold;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:black;
+  border:2px solid gold;
+}
+
+#menu-button:hover{
+  background-color:gold;
+  color:white;
+}
+
+.mission{
+  display:flex;
+  justify-content: center;
+  padding:30px;
+  text-align: center;
+}
+
+.mission h2{
+  padding:60px;
+  padding-top:80px;
+}
+
+#cat-image{
+  height:350px;
+  border: 2px solid black;
+}
+
+#white-cat{
+  height:350px;
+  border: 2px solid black;
+}
+
+.who{
+  display:flex;
+  justify-content: center;
+  padding:30px;
+  text-align: center;
+}
+
+.who-text{
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.rules{
+  justify-content: center;
+  text-align: center;
+}
+
+.rules-list{
+  margin:auto;
+  background-color: white;
+  border-radius:13px; 
+  width:430px;
+  padding:5px;
+  font-weight: bold;
+  /* border: 2px solid black; */
+}
+
+.locations{
+  display:flex;
+  justify-content: center;
+  padding:30px;
+  text-align: center;
+  padding-left:200px;
+}
+
+#cafe-window{
+  height:350px;
+  border: 2px solid black;
+  /* padding-left:200px; */
+  
+}
+
+.locations-text{
+  padding-top:60px;
+  padding-right: 300px;
+}
+
+.locations-text h3{
+  padding-bottom:20px;
+}
+
+.locations-text a{
+  color:gold;
+}
+
+.extras{
+  justify-content: center;
+  text-align: center;
+  padding-top:50px;
+}
+
+.email-form{
+  width:300px;
+}
+
+.email-form button{
+  background-color:black;
+  border: 2px solid gold;
+  color:gold;
+}
+
+.email-form button:hover{
+  background-color:gold;
+  color:white;
+  border:2px solid gold;
+}
+
+footer{
+  text-align:right;
+  padding-right:10px;
+}
