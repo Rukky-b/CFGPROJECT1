@@ -10,7 +10,7 @@ body{
   /* position: relative; */
   color: black;
   justify-content: center;
-  background-image: url(image1-cropped.jpg);
+  background-image: url(images/location1.jpg);
   height:350px; 
   padding-top: 150px;
   background-size: cover;
@@ -20,7 +20,7 @@ body{
   display: flex;
   color: gold;
   justify-content: center;
-  background-image: url(image2-cropped-bw.jpg);
+  background-image: url(images/about-head.jpg);
   height:350px; 
   padding-top: 150px;
   background-size: cover;
